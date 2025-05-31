@@ -1,15 +1,7 @@
 [
     {
-      "name": "Nguyễn Văn A",
-      "route": "/invitation/nguyen-van-a"
-    },
-    {
-      "name": "Trần Văn B",
-      "route": "/invitation/tran-van-b"
-    },
-    {
-      "name": "Lê Thị C",
-      "route": "/invitation/le-thi-c"
+      "name": "Anh Nông Minh Anh",
+      "route": "/invitation/nong-minh-anh"
     }
-  ]
+]
   

@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, useParams } from "react-router-dom";
-import Invitation from "./components/Invitation";
-import guests from "../public/guests.json";
+import Invitation from "./Invitation";
+import guests from "../publics/guests.json";
 
 const InvitationPage = () => {
   const { guestSlug } = useParams();
