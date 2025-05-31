@@ -1,3 +1,4 @@
+// filepath: /home/hieunguyen/Graduate/src/components/Invitation.tsx
 import React from "react";
 
 interface InvitationProps {
@@ -7,23 +8,71 @@ interface InvitationProps {
 const Invitation: React.FC<InvitationProps> = ({ guestName }) => (
   <div className="container">
     <div className="invitation-card">
-      {/* ...glitter and decoration elements... */}
+      <div className="glitter-container">
+        <div className="glitter-border top-left"></div>
+        <div className="glitter-border top-right"></div>
+        <div className="glitter-border bottom-left"></div>
+        <div className="glitter-border bottom-right"></div>
+      </div>
+
+      <div className="gold-decoration top-left"></div>
+      <div className="gold-decoration top-right"></div>
+      <div className="gold-decoration bottom-left"></div>
+      <div className="gold-decoration bottom-right"></div>
+
       <div className="card-content">
         <h3 className="pre-heading">Thư mời đến dự</h3>
         <h1 className="main-heading">Lễ Tốt Nghiệp</h1>
         <h2 className="honoree">của</h2>
-        {/* ...photo... */}
+
+        <div className="photo-container">
+          <div className="photo-frame">
+            <div className="photo-placeholder">
+              <img src="/publics/avt.JPG" className="photo" alt="Graduate" />
+            </div>
+          </div>
+        </div>
+
         <h2 className="graduate-name">Minh Hiếu</h2>
+
         <p className="invitation-text">
           Thân mời <span className="highlight">{guestName}</span> đến dự lễ tốt
           nghiệp của Minh Hiếu. Và cùng tạo nên thêm kỷ niệm đáng nhớ với Minh
           Hiếu nhé.
         </p>
-        {/* ...details... */}
+
+        <div className="details-container">
+          <div className="detail-item">
+            <div className="detail-icon date-icon"></div>
+            <div className="detail-text">
+              <h4>DATE & TIME</h4>
+              <p>Saturday, June 7, 2025</p>
+              <p>11:30 AM - 12:15 PM</p>
+            </div>
+          </div>
+
+          <div className="detail-item">
+            <div className="detail-icon location-icon"></div>
+            <div className="detail-text">
+              <h4>LOCATION</h4>
+              <p>University of Information Technology</p>
+              <p>Vietnam National University, Ho Chi Minh City</p>
+              <a
+                href="https://www.google.com/maps?q=UIT"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="map-link"
+              >
+                View on Google Maps
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div className="rsvp-section">
           <p>
             Sự có mặt của <span className="highlight">{guestName}</span> là niềm
-            hạnh phúc đối với Minh Hiếu. Cảm ơn
+            hạnh phúc đối với Minh Hiếu. Cảm ơn{" "}
             <span className="highlight">{guestName}</span> vì đã là một phần kỷ
             niệm đẹp với Minh Hiếu.
           </p>
