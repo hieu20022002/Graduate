@@ -58,16 +58,20 @@ const Invitation: React.FC<InvitationProps> = ({ guestName }) => (
           </div>
 
           {/* Thêm phần contact */}
-          <div className="detail-item">
-            <div className="detail-icon phone-icon"></div>
-            <div className="detail-text">
-              <h4>CONTACT</h4>
-              <p>Minh Hiếu</p>
-              <a href="tel:+84123456789" className="phone-link">
-                0328357464
-              </a>
+            <div className="detail-item">
+              <div className="detail-icon phone-icon" aria-label="Phone"></div>
+              <div className="detail-text">
+                <h4>CONTACT</h4>
+                <p>Minh Hiếu</p>
+                <a 
+                  href="tel:+84328357464" 
+                  className="phone-link"
+                  aria-label="Call Minh Hieu"
+                >
+                  0328.357.464
+                </a>
+              </div>
             </div>
-          </div>
         </div>
 
         <div className="rsvp-section">
