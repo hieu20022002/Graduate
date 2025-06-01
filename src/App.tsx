@@ -6,7 +6,7 @@ import guests from "../public/guests.json";
 const InvitationPage = () => {
   const { guestSlug } = useParams();
   const guest = guests.find(g => g.route === `/invitation/${guestSlug}`);
-  const guestName = guest?.name || "Anh em bạn dì";
+  const guestName = guest?.name || "Anh chị em bạn dì";
 
   return <Invitation guestName={guestName} />;
 };
