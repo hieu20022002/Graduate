@@ -12,8 +12,6 @@ const Invitation: React.FC<InvitationProps> = ({ guestName }) => (
       <div className="card-content">
         <h3 className="pre-heading">Thư mời đến dự</h3>
         <h1 className="main-heading">Lễ Tốt Nghiệp</h1>
-        <h2 className="honoree">của</h2>
-
         <div className="photo-container">
           <div className="photo-frame">
             <div className="photo-placeholder">
@@ -45,7 +43,7 @@ const Invitation: React.FC<InvitationProps> = ({ guestName }) => (
             <div className="detail-text">
               <h4>LOCATION</h4>
               <p>University of Information Technology</p>
-              <p>Vietnam National University, Ho Chi Minh City</p>
+              <p>Vietnam National University, HCM City</p>
               <a
                 href="https://www.google.com/maps?q=UIT"
                 target="_blank"
