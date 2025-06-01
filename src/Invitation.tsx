@@ -15,7 +15,7 @@ const Invitation: React.FC<InvitationProps> = ({ guestName }) => (
         <div className="photo-container">
           <div className="photo-frame">
             <div className="photo-placeholder">
-              <img src="/avt.JPG" className="photo" alt="Graduate" />
+              <img src="/avt.HEIC" className="photo" alt="Graduate" />
             </div>
           </div>
         </div>

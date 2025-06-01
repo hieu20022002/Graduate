@@ -1,7 +1,94 @@
 [
     {
-      "name": "Anh Nông Minh Anh",
-      "route": "/invitation/nong-minh-anh"
+        "name": "invited",
+        "route": "/invitation/invited"
+    },
+    {
+        "name": "Minh Anh",
+        "route": "/invitation/minh-anh"
+    },
+    {
+        "name": "Yến Nhi",
+        "route": "/invitation/yen-nhi"
+    },
+    {
+        "name": "Thanh Nhàn",
+        "route": "/invitation/thanh-nhan"
+    },
+    {
+        "name": "Cẩn Vân",
+        "route": "/invitation/can-van"
+    },
+    {
+        "name": "Nhật Trường",
+        "route": "/invitation/nhat-truong"
+    },
+    {
+        "name": "Vũ Tiến Linh",
+        "route": "/invitation/vu-tien-linh"
+    },
+    {
+        "name": "Khánh Huyền",
+        "route": "/invitation/khanh-huyen"
+    },
+    {
+        "name": "Đức Bùi",
+        "route": "/invitation/duc-bui"
+    },
+    {
+        "name": "Bích Huyền",
+        "route": "/invitation/bich-huyen"
+    },
+    {
+        "name": "Trâm Anh",
+        "route": "/invitation/tram-anh"
+    },
+    {
+        "name": "Minh Phụng",
+        "route": "/invitation/minh-phung"
+    },
+    {
+        "name": "Trâm Nguyễn",
+        "route": "/invitation/tram-nguyen"
+    },
+    {
+        "name": "Hoàng Long",
+        "route": "/invitation/hoang-long"
+    },
+    {
+        "name": "Em Đạt Bot",
+        "route": "/invitation/em-dat-bot"
+    },
+    {
+        "name": "Nhật Anh",
+        "route": "/invitation/nhat-anh"
+    },
+    {
+        "name": "Bạn Tâm",
+        "route": "/invitation/ban-tam"
+    },
+    {
+        "name": "Anh iu Khánh Ly",
+        "route": "/invitation/anh-iu-khanh-ly"
+    },
+    {
+        "name": "bạn Trung",
+        "route": "/invitation/ban-trung"
+    },
+    {
+        "name": "Bạn Hoa xinh gái",
+        "route": "/invitation/ban-hoa-xinh-gai"
+    },
+    {
+        "name": "Chị Huyền",
+        "route": "/invitation/chi-huyen"
+    },
+    {
+        "name": "Chị Trang và Anh Quốc",
+        "route": "/invitation/chi-trang-va-anh-quoc"
+    },
+    {
+        "name": "Anh Đạt",
+        "route": "/invitation/anh-dat"
     }
 ]
-  
