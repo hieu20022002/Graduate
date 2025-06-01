@@ -1,4 +1,3 @@
-// filepath: /home/hieunguyen/Graduate/src/components/Invitation.tsx
 import React from "react";
 
 interface InvitationProps {
@@ -8,17 +7,7 @@ interface InvitationProps {
 const Invitation: React.FC<InvitationProps> = ({ guestName }) => (
   <div className="container">
     <div className="invitation-card">
-      <div className="glitter-container">
-        <div className="glitter-border top-left"></div>
-        <div className="glitter-border top-right"></div>
-        <div className="glitter-border bottom-left"></div>
-        <div className="glitter-border bottom-right"></div>
-      </div>
-
-      <div className="gold-decoration top-left"></div>
-      <div className="gold-decoration top-right"></div>
-      <div className="gold-decoration bottom-left"></div>
-      <div className="gold-decoration bottom-right"></div>
+      {/* ...existing glitter and decoration code... */}
 
       <div className="card-content">
         <h3 className="pre-heading">Thư mời đến dự</h3>
@@ -28,7 +17,7 @@ const Invitation: React.FC<InvitationProps> = ({ guestName }) => (
         <div className="photo-container">
           <div className="photo-frame">
             <div className="photo-placeholder">
-              <img src="../public/avt.JPG" className="photo" alt="Graduate" />
+              <img src="/avt.JPG" className="photo" alt="Graduate" />
             </div>
           </div>
         </div>
@@ -64,6 +53,18 @@ const Invitation: React.FC<InvitationProps> = ({ guestName }) => (
                 className="map-link"
               >
                 View on Google Maps
+              </a>
+            </div>
+          </div>
+
+          {/* Thêm phần contact */}
+          <div className="detail-item">
+            <div className="detail-icon phone-icon"></div>
+            <div className="detail-text">
+              <h4>CONTACT</h4>
+              <p>Minh Hiếu</p>
+              <a href="tel:+84123456789" className="phone-link">
+                0328357464
               </a>
             </div>
           </div>
