@@ -1,9 +1,5 @@
 [
     {
-        "name": "invited",
-        "route": "/invitation/invited"
-    },
-    {
         "name": "Minh Anh",
         "route": "/invitation/minh-anh"
     },
@@ -90,5 +86,21 @@
     {
         "name": "Anh Đạt",
         "route": "/invitation/anh-dat"
+    },
+    {
+        "name": "Chị Quyên",
+        "route": "/invitation/chi-quyen"
+    },
+    {
+        "name": "Chị Kim Ý",
+        "route": "/invitation/chi-kim-y"
+    },
+    {
+        "name": "Chị Nhân",
+        "route": "/invitation/chi-nhan"
+    },
+    {
+        "name": "Anh Kha Lê",
+        "route": "/invitation/anh-kha-le"
     }
 ]
